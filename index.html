@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Form Validation Practice</title>
     <link rel="stylesheet" href="style.css">
     <script src="script.js" defer></script>
 </head>
@@ -18,15 +18,23 @@
 
     <label for="country">Country: </label>
     <input type="text" id="country" name="country">
+    <div class="error" aria-live="polite"></div>
+
 
     <label for="zip">Zip Code:</label>
     <input type="number" id="zip" name="zip">
+    <div class="error" aria-live="polite"></div>
+
 
     <label for="pw">Password:</label>
     <input type="password" id="pw" name="pw">
+    <div class="error" aria-live="polite"></div>
+
 
     <label for="pwc">Confirm password:</label>
     <input type="password" id="pwc" name="pwc">
+    <div class="error" aria-live="polite"></div>
+
     <input type="submit" value="Submit">
 
 </form>    
